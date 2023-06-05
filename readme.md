@@ -1,8 +1,10 @@
-# Dennis Ivy Digital Resume
+# Joey Brayshaw Digital Resume
 
-A digital resume website built based on the content from my personal REAL [resume](./assets/resume.pdf) 
+A digital resume website built based on the content from my personal REAL [resume](./assets/joey_brayshaw_resume.pdf) 
 
-View live demo here using github pages: [Live Demo](https://divanov11.github.io/Digital-Resume/)
+Forked from [divanov11](https://github.com/divanov11/Digital-Resume)
+
+<!-- View live demo here using github pages: [Live Demo](https://divanov11.github.io/Digital-Resume/) -->
 
 ## Dark Mode Preview
 
