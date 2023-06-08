@@ -2,7 +2,7 @@ name: Sync files to S3
 
 on:
     push:
-      branches: [ "main" ]
+      branches: [ "master" ]
     pull_request:
 
 permissions:
