@@ -150,5 +150,16 @@
   
         </div>
 
-    </body>
+        <br><br>
+        <p class="counter"> This site has been viewed <span id ="hit_count" display="inline"></span> times</p>
+            <script type = "text/javascript">
+              var apiUrl = "https://6eqcrmr056.execute-api.eu-west-1.amazonaws.com/prod/myWebsiteCounter?TableName=WebsiteCounterTable";
+                  fetch(apiUrl)
+                     .then(response => response.json())
+                     .then(data =>{
+                          var count = document.getElementById('hit_count');
+                      count.innerHTML = data;
+                      console.log(data)});
+               </script>
+        </body>
 </html>
